@@ -1,0 +1,68 @@
+.cv-photo-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+  position: relative;
+}
+
+
+.cv-photo {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  /* border-radius: 50px; */
+  object-fit: cover;
+  justify-content: center;
+  transform-origin:right;
+  transform:perspective(1000px) rotateY(-40deg);
+  border-radius: 10px;
+  /* z-index: 2; */
+  /* perspective: 1000px; */
+}
+
+.cv-photo:hover {
+  z-index: 4;
+  transform: none;
+  transform-origin:none;
+   /* width: 300px;
+  height: 300px; */
+}
+
+.cv-photo-1 {
+  /* position: absolute; */
+  top: 0;
+  left:0;
+   
+}
+.cv-photo-2 {
+  /* position: absolute; */
+  top: 0;
+  left: 140px;
+   
+}
+.cv-photo-3 {
+  /* position: absolute; */
+  top: 0;
+  left:280px;
+}
+
+
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+
+.box-container {
+  display: flex;
+}
+
+.xp-container {
+    background-color: rgb(35, 35, 35);
+}
+
+.ru-logo-small {
+  width: 10%;
+  height: 10%;
+}

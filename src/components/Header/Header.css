@@ -1,0 +1,20 @@
+.name {
+  display: flex;
+  /* text-align:center; */
+  justify-content: center;
+  font-weight: 500;
+  color: white;
+  font-size: 20px;
+}
+.link {
+  text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+  font-weight: 600;
+}
+
+.link:focus {
+
+}
